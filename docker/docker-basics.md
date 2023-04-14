@@ -28,9 +28,12 @@ WORKDIR - defined working directory of the container
 
 `docker image history` = shows history of image layers. 
 
-`docker image rm` + imageID removes image
-`docker rmi` does the same
+`docker image rm` + imageID removes image. 
+
+`docker rmi` does the same. 
+
 `docker image prune` removes all dangling images. 
+
 `docker image prune -a` removes all images without at least 1 container associated with them. 
 
 ## Docker Storage and Volumes
