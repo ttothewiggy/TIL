@@ -24,21 +24,27 @@ RUN apk update && apk upgrade && apk add curl
 
 RUN npm ci
 
+# This line installs the dependencies for the application using npm ci, which is similar to npm install but is intended for use in production environments and uses a package-lock.json or npm-shrinkwrap.json file to ensure reproducibility.
+
 
 
 RUN npm run build
 
+# This line builds the application using the npm run build script.
+
 CMD ["npm", "run", "start"]
 
-
+# This line sets the default command for the container to npm run start, which will start the application.
 
 #CMD ["npx", "serve", "build"]
+
+
 ```
 
 This was the final build that worked but we (abby) tried a bunch of different commands. 
 
 Such as changing the paths of the COPY, WORKDIR commands. 
-The commented out command on line 23 was the original and we changed it to line 19 which was the final change that made it work. 
+The commented out command on "CMD [npx etc]" was the original and we changed it to "CMD [nmp ect]" which was the final change that made it work. 
 Each time we ran `docker build -t react-app .`
 followed by  `docker run -p 3000:3000 react-app` which exposed the port we set in the Dockerfile to the port of the internal service. 
 
