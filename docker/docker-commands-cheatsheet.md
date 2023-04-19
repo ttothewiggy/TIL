@@ -25,10 +25,15 @@
 ## DOCKER NETWORK COMMANDS
 
 bash
+
 Copy code
+
 docker network ls                         # list available networks
+
 docker network create <network-name>      # create a new network
+
 docker network connect <network-name> <container-id/name>   # connect a container to a network
+
 docker network disconnect <network-name> <container-id/name>  # disconnect a container from a network
 
 
