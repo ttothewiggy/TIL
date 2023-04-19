@@ -1,46 +1,46 @@
-## Setting up Git
+# Git Cheat Sheet
 
-git config --global user.name "Your Name": Set your username in Git.
-git config --global user.email "your.email@example.com": Set your email address in Git.
+## Configuration
 
-## Creating and cloning repositories
+- `git config --global user.name "Your Name"`: Sets your username for Git.
+- `git config --global user.email "your.email@example.com"`: Sets your email address for Git.
+- `git config --global core.editor "nano"`: Sets your preferred text editor for Git.
 
-git init: Create a new Git repository.
-git clone <repository-url>: Clone an existing Git repository to your local machine.
+## Repository Management
 
-## Making changes
+- `git init`: Initializes a new Git repository.
+- `git clone <repository-url>`: Clones a Git repository from a remote source.
+- `git add <file>`: Adds a file to the staging area for committing.
+- `git add .`: Adds all changes to the staging area for committing.
+- `git commit -m "Commit message"`: Commits changes to the repository with a descriptive message.
+- `git push`: Pushes committed changes to a remote repository.
+- `git pull`: Pulls changes from a remote repository into the local repository.
 
-git add <file>: Add a file to the staging area.
-git add .: Add all changes to the staging area.
-git commit -m "Commit message": Commit staged changes with a message.
-git commit -a -m "Commit message": Commit all changes without staging.
-git rm <file>: Remove a file from the working directory and staging area.
-git mv <old-file-name> <new-file-name>: Rename a file.
+## Branch Management
 
-## Branching and merging
+- `git branch`: Lists all branches in the repository.
+- `git branch <new-branch-name>`: Creates a new branch with the specified name.
+- `git checkout <branch-name>`: Switches to the specified branch.
+- `git merge <branch-name>`: Merges changes from the specified branch into the current branch.
+- `git branch -d <branch-name>`: Deletes the specified branch.
 
-git branch: List all branches in the repository.
-git branch <branch-name>: Create a new branch.
-git checkout <branch-name>: Switch to a branch.
-git merge <branch-name>: Merge changes from a branch into the current branch.
+## Viewing Changes
 
-## Reviewing changes
+- `git status`: Shows the current status of the repository, including changes to files and the staging area.
+- `git log`: Shows a history of commits made in the repository.
+- `git diff`: Shows the differences between the working directory and the staging area.
+- `git diff --staged`: Shows the differences between the staging area and the last commit.
 
-git status: Show the status of the working directory and staging area.
-git diff: Show the difference between the working directory and the staging area.
-git diff --cached: Show the difference between the staging area and the last commit.
-git log: Show the commit history of the repository.
+## Undoing Changes
 
-## Working with remotes
+- `git reset`: Removes changes from the staging area.
+- `git checkout -- <file>`: Discards changes made to a file in the working directory.
+- `git revert <commit-hash>`: Reverts a specific commit by creating a new commit that undoes the changes.
 
-git remote: List all remotes in the repository.
-git remote add <remote-name> <remote-url>: Add a new remote to the repository.
-git push <remote-name> <branch-name>: Push changes to a remote branch.
-git pull <remote-name> <branch-name>: Pull changes from a remote branch.
+## Miscellaneous
 
-## Undoing changes
-
-git reset <file>: Unstage a file from the staging area.
-git reset --hard: Discard all changes since the last commit.
-git revert <commit-hash>: Create a new commit that undoes the changes in a previous commit.
-git checkout -- <file>: Discard changes to a file in the working directory.
+- `git remote -v`: Shows a list of remote repositories and their URLs.
+- `git tag <tag-name>`: Creates a new tag for the current commit.
+- `git fetch`: Downloads changes from a remote repository without merging them.
+- `git stash`: Saves changes made to the working directory without committing them.
+- `git clean -f`: Removes untracked files from the working directory.
