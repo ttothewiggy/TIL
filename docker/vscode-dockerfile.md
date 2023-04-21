@@ -15,31 +15,31 @@ To do this, I used the CLI to navigate to the folder where I wanted it, used mkd
 Delete or comment out "USER 1000" on line 63 - This just adds restrictions to the user on the noVNC tunnel, not neccesary for now when testing. 
 Below line 61 - Add the following code. 
 
-- RUN apt-get -y update && apt-get -y upgrade
+- `RUN apt-get -y update && apt-get -y upgrade`
 This command updates the list of available packages and upgrades the installed packages on the container.
 
-- RUN apt-get -y install wget gpg
+- `RUN apt-get -y install wget gpg`
 This command installs the wget and gpg packages, which are required to download and verify the Microsoft GPG key for VS Code.
 
-- RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+- `RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg`
 This command downloads the Microsoft GPG key and saves it as a file named packages.microsoft.gpg in the current directory of the container.
 
-- RUN install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+- `RUN install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg`
 This command installs the packages.microsoft.gpg file as a trusted keyring in the /etc/apt/keyrings/ directory of the container.
 
-- RUN sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+- `RUN sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'`
 This command adds the VS Code package repository to the list of available sources in the container by creating a new file named vscode.list in the /etc/apt/sources.list.d/ directory and adding the required package repository information to it.
 
-- RUN rm -f packages.microsoft.gpg
+- `RUN rm -f packages.microsoft.gpg`
 This command removes the packages.microsoft.gpg file from the container as it is no longer needed.
 
-- RUN apt install apt-transport-https
+- `RUN apt install apt-transport-https`
 This command installs the apt-transport-https package, which is required to securely download packages from the VS Code repository.
 
-- RUN apt update
+- `RUN apt update`
 This command updates the list of available packages in the container.
 
-- RUN apt install code
+- `RUN apt install code`
 This command installs the VS Code editor inside the container using the package manager apt.
 
 
