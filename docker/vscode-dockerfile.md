@@ -42,6 +42,25 @@ This command updates the list of available packages in the container.
 - `RUN apt install code`
 This command installs the VS Code editor inside the container using the package manager apt.
 
+4. Next, navigate to src > common > scripts > vnc_startup.sh.
+This script sets up the VNC password, starts the noVNC web client, and starts the VNC server. It also logs the connection options for the VNC and noVNC clients.
 
+The script accepts several command-line options, which are explained in the help function of the script. Some of these options allow skipping the VNC startup procedure and executing the assigned command. Another option enables more detailed startup output.
 
-http://192.168.11.24:6901/?password=vncpassword
+The script also sets up the window manager, starts the code editor, and logs the connection options for the VNC and noVNC clients.
+
+We're going to add `code --no-sandbox --user-data-dir` just below `$HOME/wm_startup.sh &> $STARTUPDIR/wm_startup.log` on line 109. 
+This is going to open up VSCode automatically on start up. It's not a key feature but I thought it was handy. 
+
+5. Save all the files and open up a CLI. I use Kitty. 
+Navigate to the folder we're working in. `cd Documents/Scool/Placement/vscode-container/docker-headless-vnc-container` in my case. 
+Make sure docker is running. `docker status`
+Once in the folder run `docker build -t vscode .` - this will build the Dockerfile we've just edited. 
+
+6. Once/if successfully built, run `docker run -p 6901:6901 vscode` - -p 6901:6901 maps port 6901 on the local machine to port 6901 inside the container. This allows you to access the VSCode environment through a web browser using the URL http://localhost:6901.
+
+7. Open a browser and put in your own IP, in my case 192.168.11.24. Then add`:6901/?password=vncpassword` - This is the set password chosen in the file. 
+
+`http://192.168.11.24:6901/?password=vncpassword`
+
+This should have opened a desktop in your browser with VSCode running straight away! Awesome!
