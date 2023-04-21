@@ -30,3 +30,11 @@ Since last Friday I haven't done any work towards this project but ahd been focu
 But today I've continued the dockerfile journey, having created a small fun docker container to rick roll someone (on linux only) and now I'm adding lots of info and cheatsheets to this TIL. 
 
 I've also started the cisco networking course. 
+
+# 21/04/23
+
+Spend the day at ii office with the aim of getting a dockerfile to run VSCode in a noVNC browser window.
+Great success, managed to get it running fairly quick, with a lot of help from Abby. See docker > vscode-dockerfile. 
+Then I tried to get it working on my Ubuntu machone and ran into a plethora of issues stemming from the new installation of Ubuntu I did this week and a mix up with the root users and persmissions. Plan is to boot up windows and try again. 
+
+Wrote lots of documentation recording everything I did as well as wrote some more for the mid point review for my school project. Overall a very productive day.  
