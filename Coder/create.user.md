@@ -41,3 +41,7 @@ WHen we added the localhost port it worked, and prompted us whether we wanted to
 
 
 View the Web UI: https://ganfhprtld4lq.pit-1.try.coder.app 
+
+Followed the video here below but it's using a template that uses kubernetes, which I haven't set up so we started a template using the online GUI and docker and Stephen is currently trying to figure my recurring dpkg error. 
+
+https://asciinema.org/a/htTWVG44oTuI4CI0tDOSs3UGb
