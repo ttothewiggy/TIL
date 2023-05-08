@@ -108,3 +108,45 @@ coder create --template="cs101" workspace name
 ```
 y on confrim
 
+
+### Adding a folder path to the Dockerfile
+
+So I want to have a folder accessible in vsCode on startup. I've tried adding that folder using yaml:
+created a folder called .coder and put coder.yaml in that with the following code in. 
+```
+init:
+  - path: "/Users/alexevans/Documents/School/Today I Learned"
+    workspacePath: ".local/share/code-server/Machine"
+```
+But it hasn't worked, but the workspace would still build. 
+
+Next I've tried to COPY it in through the Dockerfile:
+```
+COPY "/Users/alexevans/Documents/School/Placement/RockPaperScissors" "/home/coder/file"
+```
+
+But this is causing the build to fail. 
+```
+Error: failed to compute cache key: failed to walk /var/lib/docker/tmp/buildkit-mount937896924/Users/alexevans/Documents/School/Placement: lstat /var/lib/docker/tmp/buildkit-mount937896924/Users/alexevans/Documents/School/Placement: no such file or directory
+                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                  
+  on main.tf line 94, in resource "docker_image" "main":
+    94: resource "docker_image" "main" 
+  ```
+
+Abby has suggested the two following options. 
+Copy the folder into the same directory as the dockerfile and use: 
+```
+RUN mkdir myDirectory
+WORKDIR = myDirectory
+COPY localfolder /myDirectory 
+```
+
+if that doesnt work then clone straight from the git repo. 
+```
+either curl "linktorepo" 
+OR 
+apt-get install git
+RUN git clone "url" 
+```
+
