@@ -27,3 +27,13 @@ Now I’m just trying to clone a repo from github using the vscode terminal, whi
 I've also tried a couple other ways to get the lesson folder installed during the build, but the yaml option didn't work, git cloning in the dockerfile hasn't yet worked and I haven't tried the mkdir option yet but I'm going to give it a go tomorrow. 
 Overall a successful day breaking things. 
 
+# 25/05/23
+
+A long time between entries due to a family matter. In the UK now working on my project from home. 
+Today I tried fiddling with the template to try and get a desired repo clones straight into the workspace as it boots up. 
+I've spun up several workspaces trying a few different tactics. Abby and I got one working on the 08/05 by using git clone in the Dockerfile, but I can't seem to replicate it. 
+So far I've tried creating a new folder in the terraform files using mkdir and using git clone straight below that.
+Next I tried cloning the repo into that folder from the dockerfile. I think this isn't working because the program is reading the clone command before it makes the folder. Making the folder in the dockerfile before the clone command hasn't worked either. 
+I did some tinkering before I left for the UK where I got the ii minecraft template working so that's a cool thing to use to show my tutor the effectiveness of it, though I didn't help in the creation of it. 
+
+
