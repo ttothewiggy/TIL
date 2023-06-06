@@ -60,3 +60,41 @@ Updade/Install coder with:
 ```
 curl -L https://coder.com/install.sh | sh
 ```
+
+
+# How to log in once you've already created first user
+
+
+
+
+## Changes to the Coder Template
+
+Stephen has edited the terraform file to help me in the right direction of creating an editable file on the desktop. 
+To update a template you can use 
+```
+coder template push
+```
+
+Intead of deleting a workspace and template each time and rebuilding. 
+
+#### In the Dockerfile
+
+Added / tmux and /tree lines 7 + 8.
+Tree is a nifty wee command the displays the folder structure in a more digestable way for beginner coders. 
+
+#### In the Terraform file
+
+Added at line 38 above the EOT:
+```
+mkdir website
+    echo "<i>To update this page you will need to edit the <code>index.html</code> file in the home folder</i>" > ~/website/index.html
+    echo "<i>To update this page you will need to edit the <code>/opt/cs101/index.html</code> file.</i>" > /opt/cs101/index.html
+    python3 -m http.server --directory ~/website 8000 &
+    python3 -m http.server --directory /opt/cs101 8001 &
+
+```
+
+This is echo a phrase in the port forward pthyon 3 8000 and 8001 options. 
+As you edit the index.html file in vscode and save it, updates will be seen here. 
+
+Now I'm going to try and add a repo from my github to pre load into the workspace. 

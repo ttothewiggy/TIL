@@ -20,4 +20,6 @@ docker images: This command lists all the Docker images present on the local mac
 -q: This option prints only the image IDs in a quiet mode (only outputs the IDs without any extra information).
 So, when you run the complete command docker rmi -f $(docker images -aq), it will forcefully remove all the Docker images on your local machine without asking for confirmation.
 
+## Coder Routine
+
 

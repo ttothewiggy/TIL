@@ -38,3 +38,4 @@ Great success, managed to get it running fairly quick, with a lot of help from A
 Then I tried to get it working on my Ubuntu machone and ran into a plethora of issues stemming from the new installation of Ubuntu I did this week and a mix up with the root users and persmissions. Plan is to boot up windows and try again. 
 
 Wrote lots of documentation recording everything I did as well as wrote some more for the mid point review for my school project. Overall a very productive day.  
+
