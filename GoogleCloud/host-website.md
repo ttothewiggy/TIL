@@ -21,3 +21,6 @@ I've asked chatGPT for help and I'm following the steps supplied by that as well
 sudo apt install apache2
 ```
 
+I got the page up and running and got it to display a h1 heading saying "Hello" with web address just the IP I was allocated. So I'm in the process of linking the website domain name to that IP. 
+But I've since found a more efficiant way to go about this that's a bit more suitable by using a Bucket to host a static website instead of having a VM. This website is going to be small and won't need the power a VM will provide. 
+I am yet to get this working but I'm just waiting for the DNS propegation to come fully into effect. 
