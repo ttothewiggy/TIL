@@ -28,6 +28,7 @@ Interesting module outlining information about malware types that was quite info
 - To preserve data integrity, security plans must prevent unauthorized access and changes.
 - DoS and DDoS attacks flood a network with so much traffic that it crashes.
 
+Quiz result: 100%
 
 ## Module 2
 
