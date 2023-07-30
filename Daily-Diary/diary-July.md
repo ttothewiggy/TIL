@@ -28,7 +28,7 @@ As well as this I'm looking at learning the basics of something new. I'm curious
 
 ### Week Starting 17/07/23
 
-Started a Google Analystics course on LinkdIn, as wel as an SEO course. Mainly just to get a flavour for it and figure out if its something I can see myself doing.
+Started a Google Analytics course on LinkdIn, as wel as an SEO course. Mainly just to get a flavour for it and figure out if its something I can see myself doing.
 Also started leanring about REST API's. 
 And continuing Javascript 30. 
 
@@ -36,4 +36,4 @@ And continuing Javascript 30.
 ### Week Starting 24/07/23
 
 Starting an internship focusing on support desk training as well as Google analytics and SEO so I'm covering it all this week. Mainly just watching LinkdIn Learning videos for now.
-Also continueing the Javascript30 Challenge. A bit behind schedule but I'll try catch up this week. 
+Also continuing the Javascript30 Challenge. A bit behind schedule but I'll try catch up this week. 

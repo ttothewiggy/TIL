@@ -2,6 +2,7 @@
 
 ## Day 1
 
+### Drum Kit
 Today I started the JavaScript 30 day challenge. 
 First off is the Drum Kit challenge which has proven really fun. 
 I cloned the repo from github containing all the starter code for the challenges and created my own separate repo to push my own work to. I'm just copying and pasting the relevant code accross and removing the temptation of looking at the final code supplied in git repo supplied. 
@@ -10,14 +11,14 @@ Finished the project with ease, following Wes Bos's first video. So it was less 
 
 ## Day 2
 
-Day 2 we have the CSS and JS Clock.
+###  CSS and JS Clock.
 It was a fun one, didn't take too long and the video structure this time had a bit more do it yourself. Though he showed how to do the second hand on the clock, the hour and minute hands were up encourgaed to be done on your own. Which defintely helped it sink in. 
 We used const to great a variable out of the div that created the clock arms. Then in the function we made variables of the seconds, minutes, hours and made variables of those figures that converted them to degrees. Then we used the degrees variable to transform the style of the css of each hand to rotate the hand as the seconds/minutes/hours changed. 
 Then using the set interval function for every second, we also called this fcuntion every second where it updates. 
 
 ## Day 3
 
-CSS Variables
+### CSS Variables
 I'ce used variables in CSS before but not really understood the foundations or the scope of them. They're quite simple really, but this exercise helped to gain a much better understanding of them. 
 
 So for this exercise I started with the html page template which had 2 range input sliders and a colour pallet control option. 
@@ -29,7 +30,7 @@ Then made a set property function that changes the root variable in css to the v
 Also made 2 event listeners that use the function above when there's a change to the controls and they listen for mousemove as well. 
 And that's pretty much it. Fun and simple exercise that was. 
 
-JavaScript Arrays
+### JavaScript Arrays
 
 Javascript fundamentals, Array Methods. 
 Filter, map, sort, reduce etc. 
@@ -51,7 +52,7 @@ Is a great way to display array data in a table in the console.
 
 # Day 4 + 5
 
-Flexbox + JavaScript Image Gallery
+### Flexbox + JavaScript Image Gallery
 
 This one was fun. Building in transitions that when the click event happened it transformed the panel. 
 I can see one day that you build up your personal portfolio full of menus, transitions etc that you can use to just quickly implement a website or function from. So you just copy and paste your previous creations and make them work on the new project you're working on. 
@@ -59,23 +60,23 @@ I can see one day that you build up your personal portfolio full of menus, trans
 
 # Day 6
 
-Ajax Type Ahead with fetch() 
+### Ajax Type Ahead with fetch() 
 This was a fun one making a search box that would show all results that matched each letter as you typed it. Used RegExp for the first time. Will need to reiterate over this project a few times for it to sink in. 
 
 # Day 7
 
-Array cardio
+### Array cardio
 trying to do as much as I can before he explains and I'm getting closer each time.
 .some(), .every(), .find() and [...SPREADS]
 
 # Day 8
 
-HTML Canvas
+### HTML Canvas
 Really fun challenge of making this canvas. Lots of nuanced things to think of so I pretty much just followed along with the video as it was far more cokmplicated than I anticipated. 
 
 # Day 9 + 10
 
-Dev Tools
+### Dev Tools
 Fun little exercise going over all the different console.doSomething functions. 
 ```
 console.log("Hello");: Outputs a simple log message.
@@ -95,7 +96,10 @@ console.timeEnd('fetching data');: Ends the timer with the given name and output
 console.table(dogs);: Outputs the array of objects in a tabular format.
 ```
 
-Hold Shift
+### Hold Shift
 
 This one was cool because I asked chat GPT and it provided the EXACT same code the Wes was about to go through. Which is crazy! So cool. 
 
+# Day 11
+
+### Custom Video Player
