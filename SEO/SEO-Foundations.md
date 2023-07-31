@@ -140,4 +140,57 @@ Similar to the tryrating job. Keyworkds: Intent, reliabilty, relevance.
 - Avoid using technologies like JavaScript or Meta Refresh Tags for redirects, as they may cause indexing issues with search engines.
 - Having unique and properly handled URLs for each page will improve the chances of proper indexing and higher search engine rankings.
 
+### Leveraging structured data: Technical SEO
+
+- Structured data, often referred to as schema, provides a special syntax to help search engines identify specific types of content on web pages.
+- Schema.org is a collection of universal shared vocabulary founded by major search engines to define the structure and attributes of different content elements.
+- By using structured data, we can explicitly tell search engines what certain content elements are and provide additional metadata about them.
+- For example, structured data can be used to describe elements like product reviews, events, embedded videos, and food recipes, providing attributes such as ratings, dates, authors, and more.
+- Leveraging structured data allows search engines to have a deeper semantic understanding of content, leading to more relevant search results for users.
+- JSON-LD (JavaScript Object Notation for Linked Data) is the recommended method for implementing structured data.
+- There are around 800 types of structured data available on Schema.org, so explore the options and apply relevant data to different types of content on your website.
+- Anytime you can specifically identify content using structured data, it's beneficial for both search engines and visitors.
+
+### Using Google Search Console for SEO
+
+- Webmaster tools provided by major search engines (e.g., Google Search Console) offer valuable insights into a website's performance in search results and allow webmasters to provide instructions for crawling and indexing.
+- To begin, webmasters need to add their website as a property to the webmaster tool platform and verify ownership through various methods like HTML file upload, meta tag insertion, or DNS record changes.
+- The main dashboard in the webmaster tools provides an overview of key reports and messages related to the website.
+- The URL inspection feature allows webmasters to see how Google has crawled and indexed specific pages and request reindexing if needed.
+- The performance section offers reports on search queries, page performance, impressions, clicks, click-through rate, and average position. These reports can be filtered by various parameters like country, device type, and search appearance.
+- The index section includes the coverage report, which identifies issues with content indexing, duplicate content, blocked content, and crawl anomalies.
+- The sitemaps feature allows webmasters to submit and monitor the status of XML sitemaps, which help search engines discover and index website content.
+- The removal section allows webmasters to temporarily remove specific pages from Google's index.
+- The experience section covers mobile usability, page experience, core web vitals, and enhanced features like AMP (Accelerated Mobile Pages) and structured data.
+- The security and manual actions reports provide information on potential malware, hacking, or manual actions applied by Google.
+- The links section offers insights into external and internal linking, which can aid in off-page and on-page optimization efforts, respectively.
+- Webmasters should continually explore and use the various tools, features, and reports offered by webmaster tools to stay informed about their website's performance and address any issues effectively.
+
+
+### Using the Google Page Experience signal and Core Web Vitals
+
+- Search engines aim to understand your content, business, and site by analyzing how actual human users perceive it. Speed and performance are essential factors in this analysis.
+- Google has introduced Core Web Vitals, a collection of metrics to measure and improve overall performance and usability. The three key components are:
+  - Largest Contentful Paint (LCP): Measures the time it takes to render the largest content element visible on the screen.
+  - First Input Delay (FID): Measures the time from when a user first interacts with the page to when the browser responds.
+  - Cumulative Layout Shift (CLS): Measures how much different components in the layout shift around while users interact with the page.
+- These metrics can be found in various Google tools, such as PageSpeed Insights and the Core Web Vitals report in Google Search Console.
+- PageSpeed Insights provides both field data (real-world user data) and lab data (simulated data) reports. Field data is used for ranking purposes and is crucial to monitor.
+- The lab data report in PageSpeed Insights offers detailed diagnostics and improvement opportunities for each metric.
+- Core Web Vitals are essential ranking signals, part of the broader set of signals called page experience. Other page experience elements include mobile friendliness, security (HTTPS), and avoiding intrusive interstitials or popups.
+- Consistently monitoring Core Web Vitals, fixing issues promptly, and designing for speed, security, and performance will positively impact search visibility and user experience.
+
+### Planning content over the long term   
+
+- Content is crucial for SEO, and a strategy should be built around clear goals and objectives tied to business or organizational objectives.
+- Understanding the target audience is essential to create relevant and engaging content that solves their problems and addresses their interests.
+- Developing a formal content plan, like a rolling editorial or content calendar, helps organize content creation, keyword targeting, promotion, and accountability.
+- Various content types, such as web pages, blog posts, videos, images, infographics, and more, can attract links and shares, boosting search visibility.
+- Generating content ideas involves monitoring news, social media, industry groups, and competitors, and leveraging relationships with customers, vendors, and partners.
+- Reusing and repurposing existing content can provide additional value and reach different audiences.
+- Execution is vital, and content should have impeccable grammar, spelling, and language use to reflect well on the organization.
+- Online reputation management is essential to ensure all content aligns with well-crafted and understood policies for writing and publishing.
+- Promoting new content through menus, site maps, homepage links, newsletters, and social sharing helps gain visibility and engagement.
+- Analyzing content performance using web analytics helps measure its impact on key performance indicators (KPIs) and business objectives.
+- Continuous planning, creating, and managing of high-quality content contributes to better search visibility and overall success.
 
