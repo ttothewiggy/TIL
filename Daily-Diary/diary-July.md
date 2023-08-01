@@ -37,3 +37,4 @@ And continuing Javascript 30.
 
 Starting an internship focusing on support desk training as well as Google analytics and SEO so I'm covering it all this week. Mainly just watching LinkdIn Learning videos for now.
 Also continuing the Javascript30 Challenge. A bit behind schedule but I'll try catch up this week. 
+

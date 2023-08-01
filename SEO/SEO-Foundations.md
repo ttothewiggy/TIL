@@ -7,8 +7,6 @@
 
 ### Foundations
 
-Similar to the tryrating job. Keyworkds: Intent, reliabilty, relevance. 
-
 ## Chapter 1 - Over view of SEO
 
 ### What is search engine optimization?
