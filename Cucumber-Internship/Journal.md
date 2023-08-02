@@ -21,6 +21,8 @@ And things I need to familiarise myself with are:
 
 ## 01/08/23
 
+Day 2 has been spent using Raven Tools to identify which pages on the cucumber website had links with redirects attached to them. I then went on squarespace and edited the links to use the new new link instead of the old redirect one. 
+The I did the Looker Studio for beginners course on LinkdIn, followed by half of the Advanced GA4 course. 
 Today was spent combing through the cucumber website fixing redirects and wrong links. 
 I used Raven software to crawl a website that had fairly recently migrated to a new management software. The crawl flagged a number of errors, including redirects. This was because the old addresses of the links on the website were still being used, even though they had been redirected to the new addresses.
 
