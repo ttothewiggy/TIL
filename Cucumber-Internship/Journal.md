@@ -78,3 +78,6 @@ Click URL contains /contact - this is the path of the destination/click URL.
 Next creating a tag for the information from this trigger to go to. 
 The trigger and tag work hand-in-hand to track and collect data. Without a specific tag, the trigger would not have any instructions on what to do when the conditions are met. The trigger would activate, but it wouldn't have anywhere to send the information it gathered.
 In other words, the tag is the destination for the trigger's data. When the trigger says, "Hey, I found a user clicking the specific button and going to the 'Contact Us' page from that particular blog post," the tag takes that information and delivers it to Google Analytics.
+
+Tomorrow I'm going to be analyzing the Cucumber website analytics, the tags being sent to GA4 and what they tell me about how the site is being used.
+I need to think up some more ways we could be tracking the company website. 
