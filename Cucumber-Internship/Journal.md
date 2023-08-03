@@ -60,3 +60,7 @@ Nick advised to leave it for now as it was trickier than the cucumber stuff I've
 Instead I compressed a bunch of  large images on the cucumber website and reuplaoded them. Waiting to hear if there's a more efficient way to do it, as there's 1600 over 100kb.
 
 I've begun to use google Bard today, which has been fun. It's got live data pretty much so it's much better to ask current questions. As an AI assistant it's been great. 
+
+
+## 03/08/23
+
