@@ -64,3 +64,17 @@ I've begun to use google Bard today, which has been fun. It's got live data pret
 
 ## 03/08/23
 
+Today was a late start as I was making my contribution to the christmas dinner, cauliflower cheese and maple glazed carrots and parsnips. 
+
+Once at work I continued on from yesterady, checking over the SEO tools and trying to figure out why squarespace tends to incrase images sizes to up to 4mb. 
+
+Next challenge was to great my own trigger in Tag manager that will fire when a particular button was clicked. The button clicked to a page with a lot of paths to it so I needed to make the trigger only fire when i was leaving one particular page, going to the one particular page. This way you can measure specific traffic that has been guided to that button and the content has proven effective as they have clocked the button navigating to the contact page. 
+It was a little tricky but got there in the end. 
+First I created a trigger that when a link is clicked it checks agains a few parameter/filters. These were:
+Click ID contains yui - This was the first few characters of the css id for the button. 
+Page Path contains /news/the-importance-of-ga4-in-todays-data-driven-business-landscape - this is the path of the origin URL
+Click URL contains /contact - this is the path of the destination/click URL. 
+
+Next creating a tag for the information from this trigger to go to. 
+The trigger and tag work hand-in-hand to track and collect data. Without a specific tag, the trigger would not have any instructions on what to do when the conditions are met. The trigger would activate, but it wouldn't have anywhere to send the information it gathered.
+In other words, the tag is the destination for the trigger's data. When the trigger says, "Hey, I found a user clicking the specific button and going to the 'Contact Us' page from that particular blog post," the tag takes that information and delivers it to Google Analytics.
