@@ -103,3 +103,21 @@ This one was cool because I asked chat GPT and it provided the EXACT same code t
 # Day 11
 
 ### Custom Video Player
+
+Created the variables by grabbing the premade divs etc wesbos made.
+Assigned a function to each variable/button. 
+Got the play button working and got it toggling the icons for play and pause. 
+Got the volume slider and speed slider working, as well as progress bar. 
+Got help from the video getting the progress bar to be grabbable so the user could choose where to playback the video. 
+Skip buttons were quite easily configured.
+CHatGPT helped with the grunt work and in a few areas where I got stuck. 
+
+### Coded Keys
+
+Created "Secret code" variable. 
+Stored the keystokes in an array with event listener. 
+Made sure the array doesnt grow larger than the keyword bt removing the elements from the beginning of the array using splice. 
+Made loop looknig through array for secret code. 
+If winner was found a function was run to change the webpage. 
+
+
