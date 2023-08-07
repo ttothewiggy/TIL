@@ -1,6 +1,6 @@
 # Advanced Google Analystics 4
 
-## Leveraging GA4 for Greater Insight
+## Chapter 1 - Leveraging GA4 for Greater Insight
 
 ### Surveying advanced GA4 property settings
 
@@ -39,15 +39,51 @@
 - Properly configuring data filters will help ensure your GA4 data is accurately filtered and provide meaningful insights.
 
 
+## CHapter 2 - Working with Events in GA4
+
+### Working with automatically captured events in GA4
+
+- GA4 automatically captures events, eliminating the need for separate event setup like in GA Universal.
+- For websites, a subset of automatically captured events are collected via Enhanced Measurement.
+- To view or modify Enhanced Measurement events, go to GA4 data stream, click the wheel icon, and view the list.
+- Page view events cannot be shut off unless you disable all Enhanced Measurement.
+- Additional page view level events can be sent with a separate tag in Google Tag Manager, but be cautious to avoid extra page views.
+- Enhanced events include scroll depth (captures 90% depth), outbound clicks, site search, video engagement (works with YouTube videos), and file downloads.
+- For site search without parameterized URLs, manually send events via Google Tag Manager using data layer push and trigger.
+- Video engagement only works with YouTube videos, other platforms may require manual tracking with specific parameters.
+- For file downloads not covered by the automatically captured events, custom events are necessary with appropriate parameters.
+- These events can be modified and customized to suit specific website analysis needs.
+
+### Creating and modifying events in GA4
+
+- GA4 includes powerful event creation and editing tools for customizing events.
+- You can create new events based on existing events, providing a powerful feature for customization.
+- To access this, go to Configure > Events > Create Event, and you can either add existing custom events or create new ones.
+- Custom events can be used to set up conversions based on specific conditions, like breaking out form fills as conversions.
+- To modify events, go to Configure > Events > Modify Event, and you can change event names or parameters.
+- Make sure to use lowercase letters in event names to avoid GA4 treating them as different events.
+- Modifications don't change historical data and are applied in a specific order. Up to 50 modifications and 50 created events are allowed.
+- Modifications take about an hour to take effect and are processed before created events.
+- Customizing events can greatly enhance GA4 data, and it is commonly used to create events for conversions.
+- Additionally, GA4 allows creating events based on audience conditions for more complex event setups.
+
+### Configuring conversion events in GA4
+
+- Conversions in GA4 are based entirely on events, simplifying the process compared to GA Universal's goals.
+- To set an event as a conversion, go to Configure > Events, and turn on the slider for the event that should be counted as a conversion.
+- Custom Events can be used for conversions when no existing event corresponds neatly with the conversion criteria.
+- To create a custom event for conversions, go to Configure > Events > Create Event and set up the event based on specific conditions, such as form submits for a contact form.
+- You can also turn off conversions by setting the conversion slider to Off, but historical data will still show past events as conversions.
+- If you have a new event that should be a conversion but hasn't been recorded yet, you can use the Conversions option to set it up.
+- Go to Configure > Conversions > New Conversion Event and enter the name of the event. Once the event is recorded, it will be automatically counted as a conversion.
+- For app tracking with ads, you can set up tracking for ad networks in the Network Setting section.
+- Ensure that only trusted users have edit access to prevent accidental changes to conversions or page-level events.
+- GA4 makes it easy to set up conversions based on existing events or create custom events for specific conversion criteria.
 
 
 
 
-
-
-
-
-# Advanced-Google-Analytics
+# Advanced-Google-Analytics (GA3)
 
 ## Chapter 1 - Measuring Data
 

@@ -81,3 +81,19 @@ In other words, the tag is the destination for the trigger's data. When the trig
 
 Tomorrow I'm going to be analyzing the Cucumber website analytics, the tags being sent to GA4 and what they tell me about how the site is being used.
 I need to think up some more ways we could be tracking the company website. 
+
+## 04/08/23
+
+Started the day trying to get a GA4 report made but I don't have permissions for that so I'm going to crack on with some advanced GA4 course material and possibly some JavaScript. 
+Did a couple Java30 challenges to get the blood flowing and now I'm doing the google analytics skillshop course made by google themselves.
+Questions: What's the purpose of cucumbers website? - sales, information, what are the conversions?
+
+
+## 07/09/23 
+
+Today I've been tasked with beggining to understand Bayers SEO. 
+Combing through the data to find the top pests and evaluate SEO against competitors popular keywords. 
+It's been tricky as there's a few red herrings where there's lots of impressions on really broad queries which when I try to recreate them, it's not behaving the same way. 
+For example, on the webpage for cabbage cluster catapillar, it got tens of thousands of impressions and 40 clicks, most of those impressions were on the query keyword catapillar, which when I searched for that it brings up dozens of other webpages before Bayers, which the search console seems to think is coming up second from the top. 
+
+Spent some time looking at careers paths for data analysts and python comes up a lot. So I've got it runing on the work computer and I'll do a few little side projects to explore python a bit. 
