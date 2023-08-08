@@ -89,7 +89,7 @@ Did a couple Java30 challenges to get the blood flowing and now I'm doing the go
 Questions: What's the purpose of cucumbers website? - sales, information, what are the conversions?
 
 
-## 07/09/23 
+## 07/08/23 
 
 Today I've been tasked with beggining to understand Bayers SEO. 
 Combing through the data to find the top pests and evaluate SEO against competitors popular keywords. 
@@ -97,3 +97,13 @@ It's been tricky as there's a few red herrings where there's lots of impressions
 For example, on the webpage for cabbage cluster catapillar, it got tens of thousands of impressions and 40 clicks, most of those impressions were on the query keyword catapillar, which when I searched for that it brings up dozens of other webpages before Bayers, which the search console seems to think is coming up second from the top. 
 
 Spent some time looking at careers paths for data analysts and python comes up a lot. So I've got it runing on the work computer and I'll do a few little side projects to explore python a bit. 
+
+## 08/08/23
+
+Continuing to analyse the Bayer data to evaluate low/high performing web pages and identify popular keywords. 
+Currently I've been ordering the data by lowest CTR and identifying pages with high impressions but no clicks then analysing why. Mainly getting meta descriptions lacking decent descriptions and keywords. 
+But also quite a few anomolies where a lot of impressions are from the Bayer result appearing high up on a generic term assosiated with the pest in question. 
+eg "cabbage cluster caterpillar" got almost 10000 impressions from a google search for "caterpillar". When I made the search with my location set to rural australia, I got the result sub 20th position, with the brand caterpillar and actual caterpillars filling the spaces up high. As expected. So how did this page get 10000 impressions off that keyword search? 
+
+Today I'll comb through yesteradys work and list pages that need to improve their meta description and then move onto high performing pages and analyse why they're performing so well and see if I can use that information to improve the lowest ones. 
+
