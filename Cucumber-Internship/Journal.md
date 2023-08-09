@@ -107,3 +107,29 @@ eg "cabbage cluster caterpillar" got almost 10000 impressions from a google sear
 
 Today I'll comb through yesteradys work and list pages that need to improve their meta description and then move onto high performing pages and analyse why they're performing so well and see if I can use that information to improve the lowest ones. 
 
+Highest performing pages seems to be ones with "control" in their name. People who searched "Fleabane" for example had a CTR of less that 2% whereas "fleabane control" (although had way fewer impressions) had a CTR of 16%. Bayers pages had more success when the users intent was clear which indicates they're targeted well. 
+
+I've moved on to Looker Studio now, I want to make a chart to view the Tag and trigger I made last week on the blog posts contact button. It seems I have to create a custom dimension and I don't have permissions for that. I've tried to find a work around with the help of some AI but no luck, all attempts have hit a wall blocked by lack of permissions. 
+
+Also, I've been using the Pomodoro technique to try and help with focus. It's been working great, I've done 3 sets of 25 mins where I worked non stop and took my 5 mins rest between. 
+
+
+## 09/08/23
+
+Continuing to analyse the Bayer SEO data. I'm going to review my current notes and check they're all relevant. 
+I'm going to do some more research into SEO keywords and see if I can expand and elaborate on the data even more. 
+
+Short tail - more general words getting lots of impressions but less clicks. 
+Longtail words - more specific, often stating towards what the user wants. eg: shorttail = vollyball longtail = vollyball nets for backyard. 
+
+Wireweed = ST
+wireweed control = LT
+Think of more longtail keywords. These people know what they want so get bayer there to give them that. 
+
+Gave the google analytics 4 certification a go today and just passed it with 82% (80% being a pass). It was fairly strightforward, though for the sake of honestly, I did google some answers. 
+Now just to keep on it so it all sinks in. 
+
+Continued to analyse the Bayer data, got some good stuff I rekcon, so I was just thinking of condensing it into an easier to digest format incase it actually gets sent to whoever can make these changes at Bayer. 
+I was just having a break from it before doing that so it may be a job for tomorrow. 
+
+

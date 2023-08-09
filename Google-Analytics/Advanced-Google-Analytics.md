@@ -81,6 +81,92 @@
 - GA4 makes it easy to set up conversions based on existing events or create custom events for specific conversion criteria.
 
 
+## Chapter 3 - Users and Customer Definitions in GA4
+
+### Using customer dimensions and metrics in GA4
+
+- To configure customer dimentions and metrics in GA4, go to "Custom Dimension" under the "Configure" menu. 
+- 2 scopes: Event - only attached to that soecific event.
+            User - attatched to everything user does.
+- Customer metrics set up is siimilar. Click "custom metrics" heading, then "custom metrics" button.
+- Custom mentrics units of measurement options: 
+Standard
+Distance
+Time
+- You can create 50 each of custom dimensions and metrics and 25 user scoped custo dimensions. 
+
+### Tracking users and user ID tracking
+
+- GA4 connects multiple sessions to the same user using Google Signals, which uses people's Google accounts for tracing.
+- Google Signals needs to be enabled in GA4 Admin > Data Settings > Data Collection.
+- Reporting identity options in GA4 are "By User ID and Device" and "By Device Only."
+- "By User ID and Device" is the most complete option, using both user ID and device for tracking.
+- "By Device Only" uses device ID for tracking, even if user IDs are sent, they won't be collected.
+- Privacy regulations might dictate your choice, consult a privacy expert familiar with your jurisdiction.
+- Device-only tracking is less reliable due to technologies like intelligent tracking prevention.
+- User ID tracking works if users have logins on your website or in GA4 for apps.
+- Google has guidelines on how to set up user ID for apps.
+- For websites, set up user ID IDs in the GA4 configuration tag in Google Tag Manager.
+- Check user ID setup using the "Add Comparison" feature in reports, which helps see logged-in users.
+- User ID property helps track users across multiple sessions in GA4.
+
+### Building audiences in GA4
+
+- Audiences in GA4 are powerful for segmentation by dimensions, metrics, and conditions.
+- Access Audiences under Configure > Audiences. Default audiences include "all users" and "purchasers."
+- New Audience options include Recently Active, Non Purchasers, Purchasers, and templates.
+- Templates provide options based on user campaign, medium, or source.
+- Configure conditions for the audience, e.g., Medium Exactly equals Organic.
+- Set audience duration, consider integration tool maximum or specific duration.
+- Name the audience and save it; audiences collect data from creation onwards.
+- Editing options for created audiences are limited to name, description, and trigger.
+- Duplicate an audience for reuse, but it starts collecting data from creation.
+- Target users across sessions, within the same session, or within the same event.
+- Use conditions to track users across sessions based on demographics and interactions.
+- Create sequences with specific time constraints to define more complex audiences.
+- Creating audiences early is recommended to gather data over time.
+
+### Using Audience Triggers
+
+- Audience triggers are a powerful feature in GA4 to create multi-session or multi-step events.
+- Audience triggers fire an event when a user becomes a member of a created audience.
+- Access audiences by going to Configure > Audiences.
+- Example: Fire an event when someone completes watching five videos.
+- Set criteria for the audience trigger, such as "video complete event >= 5."
+- Set the event that should fire when the threshold is met, e.g., "video watched five."
+- Option to fire the event again if an audience member joins the audience.
+- Audience triggers help refine insights, e.g., track large purchasers vs. repeat large purchasers.
+- Useful for tracking new users from specific channels, frequent converters, etc.
+- Collaborate with team members to explore insights from audiences and triggers.
+- Now you can not only create audiences but also trigger events based on audience memberships.
+
+FINISHED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Advanced-Google-Analytics (GA3)
