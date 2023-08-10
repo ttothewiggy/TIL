@@ -133,3 +133,10 @@ Continued to analyse the Bayer data, got some good stuff I rekcon, so I was just
 I was just having a break from it before doing that so it may be a job for tomorrow. 
 
 
+## 10/08/23
+
+Today has been spent combing through the presvious analysis of the Bayer pests I've done and creating a table stating what changes need to be done. It's a fairly slow process of going through each individual page, bringing up the search console for that page and checking over the popular queries/keywords and seeing if any improvement to the age is needed. 
+Analysing the meta descriptions, page titles, competitors ranking and any other factors I can think of that might assit in the page getting more clicks and rising through the ranks. 
+
+Got started on the tui website, creating redirects for 404 pages. Did 54 out of 110. Quite simple work. 
+
