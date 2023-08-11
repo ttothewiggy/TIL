@@ -140,3 +140,9 @@ Analysing the meta descriptions, page titles, competitors ranking and any other 
 
 Got started on the tui website, creating redirects for 404 pages. Did 54 out of 110. Quite simple work. 
 
+## 11/08/23
+
+Started the day off with some redirects. Now going to move onto the Bayer stuff one more time to try and figure out a way to get new people clicking on the links. As Nick pointed out, people that are looking for the site will find it. We want to get people who weren't looking for it clicking those links. We want to increase traffic from less likely people. 
+
+Finished the day with some redirects after spending a while watching SEO videos trying to figure out the problem above. 
+Happy Friday!
