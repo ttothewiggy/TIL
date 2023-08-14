@@ -146,3 +146,12 @@ Started the day off with some redirects. Now going to move onto the Bayer stuff 
 
 Finished the day with some redirects after spending a while watching SEO videos trying to figure out the problem above. 
 Happy Friday!
+
+## 14/08/23
+
+Started a Monday morning with some redirects while a lot of meetings and morning tea's were going on as it's easier to make the most of the time. 
+Followed ths up with some google analytics, trying to figure out why there was a huge bump in traffic on the cucumber website on Sunday, where it came from and why there was a large increace in referrals. Made some reports that measured the clcik events and outlined their origins. 
+
+I have some web design tasks to complete next along with some updating of content for the website. Quite excited to be collaborating with some other staff members now. 
+
+I also started analysing the BayerNZ data, to begin trying to improve the SEO for that, though I've been assured it should be pretty tight. It'll be a challenge to find something to improve in amongst it so I'm interested to try! 
