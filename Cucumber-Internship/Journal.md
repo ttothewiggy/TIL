@@ -155,3 +155,13 @@ Followed ths up with some google analytics, trying to figure out why there was a
 I have some web design tasks to complete next along with some updating of content for the website. Quite excited to be collaborating with some other staff members now. 
 
 I also started analysing the BayerNZ data, to begin trying to improve the SEO for that, though I've been assured it should be pretty tight. It'll be a challenge to find something to improve in amongst it so I'm interested to try! 
+
+## 15/08/23
+
+Started the day with some organizing of my notes from yesterday and creating a plan of action. Made a Kanban board and populated it with a few tasks for the website update.
+Had a meeting with Tom at 10 to discuss the plan of action.
+
+Taking the info from the meeting, I then spent the day making changes to the website.
+I signed up for a free trial of Jasper AI, a content creation tool, which I hoped to use for creating custom images for the site.
+Maybe it was my prompting skills, but I was underwhelmed with the tool, and soon moved on to a more old-fashioned way of obtaining images from stock websites, etc. Just a few to test some ideas.
+Made some changes to the copied website page, as well as some accidental edits to the actual live home page (which were swiftly corrected), and I've got a bit of a fresh look for the home page. Or at least an idea that we can assess the direction from.
