@@ -165,3 +165,21 @@ Taking the info from the meeting, I then spent the day making changes to the web
 I signed up for a free trial of Jasper AI, a content creation tool, which I hoped to use for creating custom images for the site.
 Maybe it was my prompting skills, but I was underwhelmed with the tool, and soon moved on to a more old-fashioned way of obtaining images from stock websites, etc. Just a few to test some ideas.
 Made some changes to the copied website page, as well as some accidental edits to the actual live home page (which were swiftly corrected), and I've got a bit of a fresh look for the home page. Or at least an idea that we can assess the direction from.
+
+## 16/08/23
+
+Today I started off with more editing of the website. Created a few more ideas fordisplaying the services on the home page. 
+Ran some image ideas past Tom and got a bit more direction. 
+
+Moved on to some SEO for TUI NZ, trying to find some chinks in the armor of a well executed SEO strategy. Not find too much as of yet. 
+
+Sat with Nathan in the afternoon and got a glimpse into what the support role does. There was a lot going on, a lot of different softwares and processes but it all seems understandable with time and practice. And the involvement with functioning code is awesome, it's a great way to see what's going onand to begin to understand code and the scope of what it's doing. 
+
+## 17/08/23
+
+Started today with working on some stand out areas from yesterdays sessions with Nathan, which is SQL. I've touched on it but I'll definitely need a brush up and some practice so I started some HackerRank questions but the UI is so slow I've changed to a LinkedIn cuorse which is more hands on. So I'm manipulating a database now and seeing how many ways I can break it. 
+
+Did some website design as well, still can;t find a way to add a title to an image gallery in Squarespace. As easy as squarespaceis to make some really cool features, it really does bottleneck your creativity sometimes. 
+
+The afternoons task was a fun one of getting data about the product clicks for a company and adding them to a table each month. It involved a sum that searched all the pages for keyword and added the clicks up if it hit the word. Using excel.
+Now I'm trying to span 12 sheets to add up all the totlas which has worked but it's not updating the whole table, so unless I want to individually type/input to chatgpt all the formulas for each row, I'll have to try another way. 
