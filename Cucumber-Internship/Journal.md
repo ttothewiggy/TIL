@@ -183,3 +183,13 @@ Did some website design as well, still can;t find a way to add a title to an ima
 
 The afternoons task was a fun one of getting data about the product clicks for a company and adding them to a table each month. It involved a sum that searched all the pages for keyword and added the clicks up if it hit the word. Using excel.
 Now I'm trying to span 12 sheets to add up all the totlas which has worked but it's not updating the whole table, so unless I want to individually type/input to chatgpt all the formulas for each row, I'll have to try another way. 
+
+
+## 18/08/23
+
+Began the day with analysing the Bayer data. A continuation from yesterday. 
+Then I was approached to help with a task for a client which involved organising and uploading content to one of their channels for an upcomign event. So I finished that asap, although it was quite monotonous, I quite enjoyed it. 
+Now back to analaysing the bayer data and manipulating it. 
+Going to finish off the week with some website stuff. 
+
+
