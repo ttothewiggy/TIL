@@ -193,3 +193,10 @@ Now back to analaysing the bayer data and manipulating it.
 Going to finish off the week with some website stuff. 
 
 
+## 21/08/23
+
+Today I started off by going over the click-per-month spreadsheets and played with some charts and graphs.
+Then the thumbnails for some of the videos on a website weren't displaying properly, so we tried to troubleshoot that. They were working on mobile but not desktop. Managed to get a couple working by going onto the YouTube channel and changing the thumbnail, but a couple still show the default image.
+
+Then I went over the spreadsheets with Nick again and got tasked with editing some of the data, which was fun.
+Concluded the afternoon with some redirects.
