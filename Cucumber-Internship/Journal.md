@@ -200,3 +200,13 @@ Then the thumbnails for some of the videos on a website weren't displaying prope
 
 Then I went over the spreadsheets with Nick again and got tasked with editing some of the data, which was fun.
 Concluded the afternoon with some redirects.
+
+
+## 22/08/23
+
+This morning I started out investigating a thumbnail display issue for some enbedded youtube videos. Sussed it out to being a faulty image url for the desktop image. Hopefully with that info we can fix it but I'm not sure the CMS that's being used will allow it. 
+
+Next on to some data analysis for the website ad campaign that started this last month. I'm trying to find some creative ways to analyse the data which has been fun. 
+
+Did a little prep for the new additions to the work website. 
+And  whole lot of redirects to bookend most tasks. 
