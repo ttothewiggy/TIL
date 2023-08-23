@@ -210,3 +210,16 @@ Next on to some data analysis for the website ad campaign that started this last
 
 Did a little prep for the new additions to the work website. 
 And  whole lot of redirects to bookend most tasks. 
+
+## 23/08/23
+
+Started the day with some analytics.
+Then I was approached to elaborate on some excel data I had prepared, which involved using a logarithm to rank website clicks. I acheived a version quite quickly but I want happy with it because it decided the rank baed onthe average of each sample of data, in this case a month. So a 8/10 one month would be different the next. 
+So I got to work creating a better version and learnt some new things such as $A$1 is a way to freeze part of an equasion to make it constant so you can fill down. I've seen it before but it finally clicked what it's potential is. 
+And playing with some conditional formatting was fun too. 
+
+Then I finished the redirects list and now onto more looker studio practice. 
+
+Lots of looker studio, followed by using looker studio to emulate search console as I had no access to the data so I had to find a ork around. Managed to get some of the data but not all. 
+Then I found some more redirects from a raven crawl so I continued on with that.
+Now i have access to the GSC data I need for a analysis task, I can continue on with that tomorrow. 
