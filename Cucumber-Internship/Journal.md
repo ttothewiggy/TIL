@@ -223,3 +223,20 @@ Then I finished the redirects list and now onto more looker studio practice.
 Lots of looker studio, followed by using looker studio to emulate search console as I had no access to the data so I had to find a ork around. Managed to get some of the data but not all. 
 Then I found some more redirects from a raven crawl so I continued on with that.
 Now i have access to the GSC data I need for a analysis task, I can continue on with that tomorrow. 
+
+## 24/08/23
+
+Started the day off analysing the SEO data on GSC now I had access to it. 
+Moved onto fiddling with the lorgarithmically ranked data and sendnig it away. 
+Back to SEO analysis, finding some new ways to look at the data such as comparing dates to last year and trying to find low hanging fruit to improve. 
+Did some redirects in the afternoon.
+
+Started a course on excel on LinkedIn as well. Learning a lot but it's quite dense. 
+
+## 25/08/23
+
+Continued on the LinkedIn course for excel, and started another on data fluency for when the excel one got too dense. The data fluency one wasn't exactly a break but it was good to break the relelntess spreadsheets. 
+
+Moved onto the google we analyst stack and tried to fnid some new ways to learn google analytics and search console. 
+
+Hit the wall after lunch so did some Odin Project to have a bit of fresh air and finished the day with more google web analytics stack. 
