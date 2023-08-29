@@ -240,3 +240,16 @@ Continued on the LinkedIn course for excel, and started another on data fluency 
 Moved onto the google we analyst stack and tried to fnid some new ways to learn google analytics and search console. 
 
 Hit the wall after lunch so did some Odin Project to have a bit of fresh air and finished the day with more google web analytics stack. 
+
+## 28/08/23
+
+Started today going over some SEO data for TUINZ, to show my progress. 
+Meeting with nick to go over the data. 
+Afternoon doing the same with the NZ data as with the Au data for the cropscience client. Trying to ration this activity as it's quite fun, so interspercing it with other tasks. 
+
+## 29/08/23
+
+Started the morning off with continueing the organising some data into a spreadsheet.
+Then more google analytics learning, followed by some YiA! video stuff.
+Going to make a montage video tomorrow. 
+
