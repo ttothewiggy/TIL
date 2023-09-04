@@ -249,7 +249,28 @@ Afternoon doing the same with the NZ data as with the Au data for the cropscienc
 
 ## 29/08/23
 
-Started the morning off with continueing the organising some data into a spreadsheet.
+Started the morning off with continuing the organising some data into a spreadsheet.
 Then more google analytics learning, followed by some YiA! video stuff.
 Going to make a montage video tomorrow. 
+
+## 30/08/23
+
+Brought my mac in today and started editing the intermediate and senior videos. Finished them both and they got sent off for a review with only a couple changes needing to be made. 
+Then did some SEO in the arvo before heading home. 
+Interviewed today for the Application Support Cosultant role here at Cucumber. 
+
+## 31/08/23
+
+Started and finished the Junior video today, a lot more videos to be sorted through, much harder to squeeze them all into a reasonably long video. 
+Heard back from the interview this morning. Such a quick response, which only made me assume it was bad new. Which I was kind of expecting as I was the least qualified person applying for the role. 
+Well surprise to us all is that I got th job! So this internship thread is going to come to an end tomorrow because in Monday I start a real job in IT at a real comany where I get paid real money! 
+I feel like I've made it, though in reality the journey has just begun. 
+
+## 01/09/23
+
+A day of tinerking with videos, which got a lot of praise for beign just what they wanted and being speedily produced. 
+Then just spent the day doing SEO and preparing as best I could for Monday by reading up on the companies I'd be providing support for and learning what Cucumber did for them. 
+
+I think we can safely say the internship went superlatively well. I'm finishing it 2 months early to become a paid employee for the company. That's a win in my books. 
+
 
